@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zahra.pidevwsandroid.CommentActivity"
+    android:layout_marginRight="10dp">
+
+    <LinearLayout
+        android:layout_width="694dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment Management"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+            android:textColor="#46bddb"
+            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/material"
+                android:layout_marginLeft="300dp"/>
+
+        </RelativeLayout>
+
+        <!--<Button-->
+            <!--android:id="@+id/btnBack"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:background="#76b7e0"-->
+            <!--android:textColor="#ffff"-->
+            <!--android:text="Back"/>-->
+        
+        <TextView
+            android:id="@+id/txtCId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Comment id: "/>
+
+        <EditText
+            android:id="@+id/editCId"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:inputType="number"/>
+        
+        <TextView
+            android:id="@+id/txtContetnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:text="Comment: "/>
+
+
+        <EditText
+            android:id="@+id/editComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_margin="10dp"
+            android:paddingRight="30dp"
+            android:background="#76e09a"
+            android:textColor="#ffff"
+            android:layout_width="362dp"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/save"
+            android:text="Save"/>
+
+        <Button
+            android:id="@+id/bntDel"
+            android:layout_margin="10dp"
+            android:layout_width="363dp"
+            android:layout_height="match_parent"
+            android:background="#ff7f7f"
+            android:textColor="#ffff"
+            android:drawableEnd="@drawable/delete"
+            android:paddingRight="30dp"
+            android:text="Delete Comment"/>
+    </LinearLayout>
+    
+</android.support.constraint.ConstraintLayout>

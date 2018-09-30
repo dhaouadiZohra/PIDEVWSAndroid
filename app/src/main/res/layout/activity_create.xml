@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zahra.pidevwsandroid.CommentActivity"
+    android:layout_marginRight="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="QrCode"
+                android:textColor="#46bddb"
+                android:textSize="25dp" />
+
+
+        </RelativeLayout>
+
+        <!--<Button-->
+        <!--android:id="@+id/btnBack"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:background="#76b7e0"-->
+        <!--android:textColor="#ffff"-->
+        <!--android:text="Back"/>-->
+
+
+        <EditText
+            android:id="@+id/etqr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="363dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#ff7f7f"
+            android:paddingRight="30dp"
+
+            android:text="Create image"
+            android:textColor="#ffff" />
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:foregroundGravity="left"
+            />
+    </LinearLayout>
+
+</LinearLayout>
